@@ -1,0 +1,147 @@
+.stars {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+body {
+  color: #060b35;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+}
+
+.card {
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  width: 198px;
+  margin: auto;
+}
+
+.product-image {
+  background-image: url("imac.d0e0225a.jpeg");
+  background-position: center;
+  background-size: 160px 134px;
+  width: 160px;
+  height: 134px;
+  margin-top: 32.5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-name {
+  color: #060b35;
+  margin-top: 40px;
+  padding-left: 16px;
+  padding-right: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.product-code {
+  color: #616070;
+  padding-top: 4px;
+  padding-left: 16px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.reviews-box {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+}
+
+.flex-container, .stars {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.star {
+  background-image: url("star-active.2be54011.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.star-off {
+  background-image: url("star.fa806e3c.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.reviews {
+  padding-top: 3px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.price-box {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 24px 16px 15px;
+  display: flex;
+}
+
+.price-label {
+  color: #616070;
+  padding-top: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.price {
+  color: #000;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 18px;
+}
+
+.buy-box {
+  color: #fff;
+  background-color: #00acdc;
+  border-radius: 5px;
+  align-items: center;
+  width: 166px;
+  height: 40px;
+  margin-top: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  font-size: 14px;
+  font-weight: 1000;
+  line-height: 16px;
+  display: flex;
+}
+
+.buy-box:hover {
+  color: #00acdc;
+  background-color: #fff;
+  border: 1px solid #00acdc;
+  width: 164px;
+  height: 38px;
+  font-weight: 1000;
+  line-height: 16px;
+}
+
+.buy-link {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=index.e378193d.css.map */
